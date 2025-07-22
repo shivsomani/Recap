@@ -1,0 +1,16 @@
+*Container Elements- The elements which contain some information inside them.
+Ex. Heading, Pargraph elements.
+
+*Standslone Elements - are the elements contrasting to container elements.
+Ex. <!DOCTYPE html>
+They do not contain any information inside them.
+
+*Comments in HTML -
+<!-- This is a comment. -->
+<!-- This is a comment. 
+             Seems like a multi line comment is allowed too.
+        -->
+
+*Attributes in HTML:
+-These are special words used inside the opening tag of an element to control the
+elements behaviour. 

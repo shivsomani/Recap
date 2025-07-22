@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Cat Photo Page</title>
+    </head>
+    <body>
+        <h2>CatPhotoApp</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <p>Click here to view more <a href="https://www.google.com/" target="_blank">Cat Photos</a></p>
+
+            <a href="https://www.google.com/" target="_blank">Cat Photos</a><br>
+            <a href="https://www.google.com/" target="_blank"><img src="cat image.jpg" alt="A cute orange cat"></a>
+
+            <h4>Cat Lists</h4>
+            <p>Things cat love:</p>
+            <ul>
+                <li>Point 1</li>
+                <li>Point 2</li>
+                <li>Point 3</li>
+            </ul>
+            <img src="leetcode_50days_2025.png" height="150" width="200">
+            <p>Things cats do not like:</p>
+            <ol> 
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+            </ol>
+
+            <form action="/submit-cat-photos">
+                <label><input id="indoor" type="radio" name="radio1" checked>Indoor</label><br>
+                <label><input id="outdoor" type="radio" name="radio1">Outdoor</label><br>
+                <br>
+
+                <label for="loving"><input id="loving" type="checkbox" name="personality" checked>Loving</label><br>
+                <label for="lazy"><input id="loving" type="checkbox" name="personality">Lazy</label><br>
+                <label for="energetic"><input id="loving" type="checkbox" name="personality">Energetic</label><br>
+
+                <input type="text" placeholder="cat photo URL" required><br>
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+            <br>
+        </main>
+    </body>
+</html>
